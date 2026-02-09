@@ -214,7 +214,7 @@ You must:
 
 ## Submission
 
-Upload a link to you github repository on sakai.
+Upload a link to you github repository on canvas.
 I will look at your code and visualization to determine your grade.
 
 **Grading:**
@@ -241,4 +241,4 @@ There's two reasons:
 1. The dataset is too large to upload to github actions.
     In general, writing test cases for large data analysis tasks is tricky and rarely done.
     Writing correct code without test cases is hard,
-    and so many (most?) analysis of large datasets contain lots of bugs.
+    and so many (most?) analyses of large datasets contain lots of bugs.
