@@ -10,9 +10,9 @@ The primary goal was to measure the temporal spread and volume of COVID-19 relat
 ## What the Scripts Do:
 * map2.py: For each day’s geotagged tweets, count how often selected hashtags appear across languages.
 * reduce.py: Combine these daily outputs into cumulative counts for each hashtag.
-* alternative_reduce.py: input hashtags related to covid-19, combine the data over the year similar to reduce.py, and then visualize over each day of the year how often the chosen hashtags were utilized.
+* visualize.py: Create graphs using matplotlib to visualize the cumulative counts from reduce.py.
+* alternative_reduce.py: A combination of reduce.py and visualize.py. Input hashtags related to covid-19, combine the aggregate data from the year, and then visualize over each day of the year how often the chosen hashtags were utilized.
 
-I used matplotlib and the kitty shell to visualize the data and generate time-series plots showing how the usage of key hashtags changes over the year.
 All core logic is implemented in Python, with outputs saved as .png charts.
 ## Generated Visualizations
 Four distinct plots are produced, each providing insight into how Twitter users discussed the pandemic:
